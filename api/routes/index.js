@@ -8,7 +8,7 @@ var ctrlUsers = require('../controllers/users.controllers.js');
 
 router//add a route
     .route('/hotels')
-    .get(ctrlUsers.authenticate, ctrlHotels.hotelsGetAll);//if token's header info is matched ( checked by ctrlUsers.authenticate), then proceed to hotelsGetAll function
+    .get(ctrlHotels.hotelsGetAll);//if token's header info is matched ( checked by ctrlUsers.authenticate), then proceed to hotelsGetAll function
 
 router//add a route
     .route('/hotels/:hotelId')
@@ -26,7 +26,7 @@ router//add a route
 router//add a route
     .route('/hotels/:hotelId/reviews')
     .get(ctrlReviews.reviewsGetAll)
-    .post(ctrlReviews.reviewsAddOne);
+    .post(ctrlUsers.authenticate, ctrlReviews.reviewsAddOne);
 
 router//add a route
     .route('/hotels/:hotelId/reviews/:reviewId')
