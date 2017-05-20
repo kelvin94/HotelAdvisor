@@ -8,7 +8,7 @@ var MongoClient = require('mongodb').MongoClient;
 //This way the drive will know what going to try and connect to.
  
 //The connected string will contain the protocol , in this case it will be 'mongodb//'
-var dburl = 'mongodb://localhost:27017/meanhotel';//this is a connection string.
+var dburl = 'mongodb://kelvin:123456@ds147421.mlab.com:47421/hoteladvisor';//this is a connection string.
 
 
 
