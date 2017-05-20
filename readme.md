@@ -1,5 +1,9 @@
 The app is currently not available due to problems related to Heroku.
 
+Testing Account(already register and ready to be used):
+    Username: john49
+    Password: 123456
+
 Available functionalities:
     - register, log in, log out
     - view hotels
