@@ -1,6 +1,10 @@
 The app is currently not available due to problems related to Heroku.
 
-Try out the app locally. Feel free to download it!
+Available functionalities:
+    - register, log in, log out
+    - view hotels
+    - add reviews, reviews of hotels can ONLY be seen by logging in.
+
 
 Don't forget to run npm install to install the dependencies!
 
