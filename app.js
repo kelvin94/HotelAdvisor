@@ -12,7 +12,7 @@ var routes = require('./api/routes');
 
 
 
-app.set('port',3000);
+app.set('port',(process.env.PORT || 5000));
 
 
 app.use(function(req, res, next){
