@@ -1,4 +1,4 @@
-The app is currently not available due to problems related to Heroku.
+The app is deployed to Heroku.
 
 Testing Account(already register and ready to be used):
     Username: john49
